@@ -27,7 +27,7 @@
 
     <developers>
         <developer>
-            <id>Mazecodec</id>
+            <id>mazecodec</id>
             <name>Mazecodec</name>
             <email>mazecode.tec@gmail.com</email>
             <organization>MyJauz</organization>
@@ -39,7 +39,7 @@
         <repository>
             <id>github</id>
             <name>GitHub MazecodeTec Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/Mazecodec/SpringSkeleton/</url>
+            <url>https://maven.pkg.github.com/mazecodec/SpringSkeleton/</url>
         </repository>
     </distributionManagement>
 
