@@ -23,7 +23,7 @@
                 </repository>
                 <repository>
                     <id>github</id>
-                    <url>https://maven.pkg.github.com/mazecodec/spring-skeleton</url>
+                    <url>https://maven.pkg.github.com/mazecodec/springskeleton</url>
                     <snapshots>
                         <enabled>true</enabled>
                     </snapshots>
