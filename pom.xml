@@ -34,7 +34,6 @@
         </developer>
     </developers>
 
-    <!-- If you want to include some external dependency from github repositor, add next block lines -->
     <distributionManagement>
         <repository>
             <id>github</id>
