@@ -1,0 +1,14 @@
+spring:
+    h2:
+        console:
+            enabled: true # Enabling H2 Console
+            path: /h2 # Custom H2 Console URL
+    
+    # Configure H2 Datasource
+    datasource:
+        url: jdbc:h2:mem:skeleton_db 
+        driverClassName: org.h2.Driver
+        username: sa
+        password: password
+    jpa:
+        database-platform: org.hibernate.dialect.H2Dialect

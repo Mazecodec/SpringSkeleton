@@ -1,0 +1,29 @@
+version: '3.9'
+
+services:
+    backend:
+        container_name: skeleton-app_prod
+        ports:
+            - "8082:8080"
+        build:
+            context: .
+            dockerfile: .docker/Dockerfile-prod
+        env_file:
+            - .docker/.env
+            
+#    postgres_db:
+#        image: 'postgres:15.2'
+#        ports:
+#            - '5432'
+#        env_file:
+#            - .docker/.env
+#       
+#        
+#    mongodb_db:
+#        image: mongo:latest
+#        ports:
+#            - '27017:27017'
+#        volumes:
+#            - db:/data/db
+#        env_file:
+#            - .docker/.env
