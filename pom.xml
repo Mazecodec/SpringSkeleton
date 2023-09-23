@@ -38,7 +38,7 @@
         <repository>
             <id>github</id>
             <name>GitHub MazecodeTec Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/mazecodec/springskeleton/</url>
+            <url>https://maven.pkg.github.com/mazecodec/springskeleton</url>
         </repository>
     </distributionManagement>
 
